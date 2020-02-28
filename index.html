@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<!-- meta tags (auxiliam no mecanismo de busca) -->
+	<meta charset = "UTF-8">
+	<meta name = "author" content = "Alexânder Augusto">
+    <meta name = "description" content = "Curriculo Online de Alexânder Augusto">
+    <meta name = "keywords" content = "curriculo, Alexânder Augusto, Alexânder, blog">
+    <meta name = "viewport" content = "width = device - width, initial - scale = 1.0">
+
+    <!-- chamando o arquivo style.css para dimensão de web site -->
+    <link id = "testando_a" href = "css\style.css" rel = "stylesheet" media = "screen and (min-width:800px)">
+    <!-- chamando o arquivo style_app.css para dimensão de smarphones e tablets -->
+    <link href = "css/style_app.css" rel = "stylesheet" media = "screen and (max-width: 800px)">
+
+    <!-- Fonte de icones -->
+    <link href = "https://use.fontawesome.com/releases/v5.7.2/css/all.css" rel = "stylesheet" integrity = "sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin = "anonymous">
+
+    <!-- Favicon -->
+    <link rel = "icon" href = "img/favicon.png">
+
+    <!-- titulo da pagina web -->
+    <title> Perfil - Alexânder Augusto </title>
+
+</head>
+
+<body id = "page-top">
+
+	<!-- menu fixo a esquerda -->
+	<nav class = "menu-lateral">
+		<!-- imagem de perfil -->
+	  	<a class = "perfil-click" href = "#page-top">
+	  		<div class = "perfil_circle" href = "#page-top">
+	  			<img class = "img_perfil" src = img/perfil_1.jpg>
+	  		</div>
+		</a>
+
+		<div class = "dados_app">
+			<a href = "#">
+				<h1 class = "name_menu_app"> Alexander Augusto </h1>
+			</a>
+			<button id = "btn_app" class = "fa fa-bars" type = "button"> </button>
+		</div>
+
+		<!-- lista de elementos para guardar os topicos -->
+		<div class = "lista_de_elementos">
+			<ul class = "lista">
+				<li class = "lista_item"> 
+					<a onMouseOver = "element_over(0)" onMouseOut = "element_leave(0)" class = "lista_click" href = "#"> SOBRE </a>
+				</li>
+				<li class = "lista_item">  
+					<a onMouseOver = "element_over(1)" onMouseOut = "element_leave(1)" class = "lista_click" href = "#linha_horizontal_experiencia"> EXPERIÊNCIA </a>
+				</li>
+				<li class = "lista_item">  
+					<a onMouseOver = "element_over(2)" onMouseOut = "element_leave(2)" class = "lista_click" href = "#linha_horizontal_educacao"> EDUCAÇÃO </a>
+				</li>
+				<li class = "lista_item"> 
+					<a onMouseOver = "element_over(3)" onMouseOut = "element_leave(3)" class = "lista_click" href = "#linha_horizontal_habilidades"> HABILIDADES </a>
+				</li>
+				<li class = "lista_item"> 
+					<a onMouseOver = "element_over(4)" onMouseOut = "element_leave(4)" class = "lista_click" href = "#linha_horizontal_interesses"> COMENTÁRIO </a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- lista de elementos para guardar os topicos no modo app -->
+	<div class = "lista_de_elementos_app">
+		<ul class = "lista_app">
+			<li class = "lista_item_app"> 
+				<a onMouseOver = "element_over(0)" onMouseOut = "element_leave(0)" class = "lista_app_click" href = "#"> SOBRE </a>
+			</li>
+			<li class = "lista_item">  
+				<a onMouseOver = "element_over(1)" onMouseOut = "element_leave(1)" class = "lista_app_click" href = "#linha_horizontal_experiencia"> EXPERIÊNCIA </a>
+			</li>
+			<li class = "lista_item">  
+				<a onMouseOver = "element_over(2)" onMouseOut = "element_leave(2)" class = "lista_app_click" href = "#linha_horizontal_educacao"> EDUCAÇÃO </a>
+			</li>
+			<li class = "lista_item"> 
+				<a onMouseOver = "element_over(3)" onMouseOut = "element_leave(3)" class = "lista_app_click" href = "#linha_horizontal_habilidades"> HABILIDADES </a>
+			</li>
+			<li class = "lista_item"> 
+				<a onMouseOver = "element_over(4)" onMouseOut = "element_leave(4)" class = "lista_app_click" href = "#linha_horizontal_interesses"> COMENTÁRIO </a>
+			</li>
+		</ul>
+	</div> 
+
+	<!-- Todo conteudo do site -->
+	<div class = "conteudo">
+		<!-- topico "sobre" do site -->
+		<section class = "secao_sobre">
+			<div class = "sobre">
+				<h1 class = "nome"> Alexander <span class = "sobrenome"> Augusto </span> </h1>
+
+				<div class = "endereco"> Rua Cel. Joaquim Inácio - 09 · Santa Rita do Sapucaí, MG - 37540-000 · (35) 98452-9203 · <a class = "link_email" href = "https://alexaasf_10@hotmail.com" target = "_blank" style = "color: #0000CD; text-decoration: none;"> alexaasf_10@hotmail.com </a>
+				</div> 
+
+				<br> <br>
+
+				 <p class = "conteudo_sobre"> Eu gosto bastante de adquirir novos desafios e aprender coisas novas. Não tenho problemas em me relacionar com pessoas, faço amizades facilmente independentemente do tipo de pessoa que me receba. Tenho hábito de programar nas horas vagas, mesmo que eu não faça isso de forma profissional, eu adoro ficar desenvolvendo programas, aplicativos e sites web para mim mesmo, como forma de testar meus conhecimentos. <br> <br>
+
+				 Além de gostar muito da área de desenvolvimento web e mobile, eu aproveito uma parte do meu tempo ao ar livre, para praticar esportes, como futebol, tenis de mesa, corridas, entre outros. <br> <br>
+
+				 Quando estou em casa, eu gosto de jogos onlines, assistir filmes de ficção científica e comédia, porém não costumo fazer isso com muita frequência por conta dos estudos. Gasto uma parte do tempo explorando e admirando os novos avanços tecnologicos. </p>
+
+				<!-- icones (https://www.w3schools.com/icons/fontawesome_icons_intro.asp) -->
+				<div class = "contato_icons">
+					<a href = "https://www.facebook.com/profile.php?id=100004918871887" target = "_blank">
+						<i onMouseOver = "icon_over(0)" onMouseOut = "icon_leave(0)" class = "fab fa-facebook-square" id = "icons" style = "margin-left: 0;"> </i>
+					</a> 
+
+					<a href = "https://www.linkedin.com/in/alex%C3%A2nder-augusto-5b8719149/" target = "_blank">
+						<i onMouseOver = "icon_over(1)" onMouseOut = "icon_leave(1)" class = "fab fa-linkedin" id = "icons"> </i>
+					</a>
+
+					<a href = "https://twitter.com/alexaasf_10" target = "_blank">
+						<i onMouseOver = "icon_over(2)" onMouseOut = "icon_leave(2)" class = "fab fa-twitter-square" id = "icons"> </i>
+					</a>
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- Linha horizontal para separar os topicos -->
+		<hr id = "linha_horizontal_experiencia">
+
+		<!-- topico "experiencia" do site -->
+		<section class = "secao_experiencia">
+			<div class = "experiencia">
+				<h1 id = "topico_lista"> Experiência </h1>
+				<h2 id = "titulo"> Desenvolvedor (Estudante) </h2>
+				<h2 id = "sub-titulo"> Inatel </h2>
+				<p id = "paragrafo"> Não tenho experiência em projetos grandes, pois ainda não tive oportunidade de trabalhar na área. Porém, além de estudar, tenho desenvolvido vários projetos acadêmicos como forma de colocar em prática o aprendido nas materias. Tenho consciência de que em breve estarei trabalhando em um projeto para desenrolar meus aprendizados da faculdade. </p>
+
+				<h1 id = "titulo"> Atividades Extra-Curriculares </h1>
+				<h2 id = sub-titulo> Cursos e Workshops </h2>
+				
+				<ul class = "lista_habilidades">
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						Curso de Inglês Intensivo: Ministrado pela USKCALLAN Instituo De Inglês LTDA;  
+					</li> 
+
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						Desenvolvimento de aplicações mobile com Android Studio: Ministrado pela Fundação Bradesco Escola Virtual; 
+					</li>
+
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						Fundamento das aplicações móveis: Ministrado pela Fundação Bradesco Escola Virtual; 
+					</li>
+
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						Microsoft Excel - Basico, Intermediário e Avançado: Ministrado pela Fundação Bradesco Escola Virtual;
+					</li>
+
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						Curso Java: Ministrado pelo Crea-Minas Júnior Núcleo Santa Rita do Sapucaí;
+					</li>
+
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						Curso SolidWorks: Ministrado por Inatel Maker. 
+					</li>
+					
+				</ul>
+
+				<h1 id = "titulo"> Participação em Projetos </h1>
+				<h2 id = "sub-titulo"> Fetin - Feira Tecnológica do Inatel </h2>
+				<ul class = "lista_habilidades">
+						<li class = "lista_item"> 
+							<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+							Fetin 2018, Future Clean – Aplicativos para monitoramento da coleta de lixo de Santa Rita do Sapucaí – Foram desenvolvidos dois aplicativos utilizando a plataforma MIT App Inventor e para fins de funcionalidades do projeto, foi também utilizado um Rastreador Veicular Gps Gsm TK 103b. <br><br>
+
+							<iframe width = "560" height = "315" src = "https://www.youtube.com/embed/sHA8Sx7YKoY" frameborder = "0" allow = "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+
+						</li>	
+				</ul>
+
+				<h2 id = "sub-titulo"> Sefitel - Seminário de Física do Inatel </h2>
+				<ul class = "lista_habilidades">
+						<li class = "lista_item"> 
+							<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+							Sefitel Física I · 2017.2, A Física no Controle e Automação - Foi desenvolvido um protótipo de um carro movido a água, onde o mesmo deveria ter a capacidade de funcionar sem qualquer tipo de combustão;
+						</li>
+
+						<li class = "lista_item"> 
+							<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+							Sefitel Física II · 2018.1, A Óptica de Johannes Kepler - Artigo baseado na Óptica Geomética de Kepler;
+						</li>
+
+						<li class = "lista_item"> 
+							<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+							Sefitel Física III · 2018.2, Sensor de Abertura por Onda Magnética - Foi desenvolvido um artigo explicando fisicamente e matematicamente o funcionamento de um sensor magnético. E também, a fim de mostrar o funcionamento do sensor prática, foi feito um protótipo de uma porta, utilizando um circuito eletrônico juntamente com um sensor magnético para abertura.  
+						</li>	
+				</ul>
+
+			</div>
+		</section>
+
+		<!-- Linha horizontal para separar os topicos -->
+		<hr id = "linha_horizontal_educacao">
+
+		<!-- topico "educação" do site -->
+		<section class = "secao_educacao">
+			<div class = "educacao">
+				<h1 id = "topico_lista"> Educação </h1>
+				<h2 id = "titulo"> Instituto Nacional de Telecomunicações - <a href = "https://www.inatel.br/home/" target = "_blank" style = "color: #0000CD; text-decoration: none; font-style: italic;"> Inatel </a> </h2>
+				<h2 id = "sub-titulo"> Bacharel em Engenharia </h2>
+				<p id = "paragrafo"> Engenharia da Computação · 01/2017 - 12/2021 </p>
+			</div>
+		</section>
+
+		<!-- Linha horizontal para separar os topicos -->
+		<hr id = "linha_horizontal_habilidades">
+
+		<!-- topico "habilitades" do site -->
+		<section class = "secao_habilidades">
+			<div class = "habilidades">
+				<h1 id = "topico_lista"> Habilidades </h1>
+				<h2 id = "sub-titulo"> Linguagens de Programação </h2>
+
+				<!-- icones (https://fontawesome.com/start) -->
+				<div class = "icons_center">
+					<a href = "https://pt.wikipedia.org/wiki/C%2B%2B" target = "_blank">
+						<i onMouseOver = "icon_over(3)" onMouseOut = "icon_leave(3)" class="fab fa-cuttlefish" id = "icons" style = "margin-left: 0;"> </i>
+					</a>
+
+					<a href = "https://pt.wikipedia.org/wiki/HTML5" target = "_blank">
+						<i onMouseOver = "icon_over(4)" onMouseOut = "icon_leave(4)" class="fab fa-html5" id = "icons"> </i>
+					</a>
+
+					<a href = "https://pt.wikipedia.org/wiki/CSS3" target = "_blank">
+						<i onMouseOver = "icon_over(5)" onMouseOut = "icon_leave(5)" class="fab fa-css3" id = "icons"></i>
+					</a>
+
+					<a href = "https://pt.wikipedia.org/wiki/JavaScript" target = "_blank">
+						<i onMouseOver = "icon_over(6)" onMouseOut = "icon_leave(6)" class="fab fa-js-square" id = "icons"> </i>
+					</a>
+
+					<a href = "https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)" target = "_blank">
+						<i onMouseOver = "icon_over(7)" onMouseOut = "icon_leave(7)" class="fab fa-java" id = "icons"></i>
+					</a>
+
+					<a href = "https://pt.wikipedia.org/wiki/SQL" target = "_blank">
+						<i onMouseOver = "icon_over(8)" onMouseOut = "icon_leave(8)" class="fas fa-database"" id = "icons"> </i>
+					</a>
+				</div>
+				<br> <br> <br> <br>
+
+				<h2 id = "sub-titulo"> Programas e Ferramentas </h2>
+
+				<!-- Lista de programas e ferramentas -->
+				<ul class = "lista_habilidades">
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						Altium Desginer: Software para desenvolvimento de placas de circuito impresso; 
+					</li> 
+
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						SolidWorks: Software de CAD para prototipagem de modelos 3D; 
+					</li>
+
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						Android Studio: Software para desenvolvimento de aplicativos android; 
+					</li>
+
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						App Invetor: Ferramenta para desenvolvimento de aplicativos android;
+					</li>
+
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						Excel: Construtor e Editor de planilhas;
+					</li>
+
+					<li class = "lista_item"> 
+						<i class = "fa-li fa fa-check" style = "margin-left: 50px; color: #828282;"> </i>
+						MySQL: Sistema de gerenciamento de banco de dados. 
+					</li>
+					
+				</ul>
+				
+			</div>
+		</section>
+
+
+		<!-- Linha horizontal para separar os topicos -->
+		<hr id = "linha_horizontal_interesses"> 
+
+		<!-- topico "comentario" do site -->
+		<section class = "secao_comentario">
+			<h1 id = "topico_lista"> Comentário </h1>
+			<div class = "comentario">
+				<!-- Formulario para envio de comentarios sobre o site -->
+				<form class = "formulario_comentario">
+					<fieldset>
+						<legend class = "formulario_legenda"> Deixe seu comentário aqui </legend>
+						<div class = "campos">
+
+							<!-- NOME -->
+							<label> Nome: </label> 
+							<i id = "icon_error" class = "fas fa-exclamation-circle" style = "color: #FF4500;"> Nome inválido! </i> 
+							<i id = "icon_ok" class = "fas fa-check-circle" style = "color: green;"> </i><br> 
+							<input class = "campo_nome" placeholder = "Seu Nome*" type = "text"> <br>
+
+							<!-- EMAIL -->
+							<label> Email: </label> 
+							<i id = "icon_error" class = "fas fa-exclamation-circle" style = "color: #FF4500;"> E-mail inválido! </i> 
+							<i id = "icon_ok" class = "fas fa-check-circle" style = "color: green;"> </i><br> 
+							<input class = "campo_email" placeholder = "Seu Email*" type = "email"> <br>
+							
+							<!-- MENSAGEM -->
+							<label> Mensagem: </label> 
+							<i id = "icon_error" class = "fas fa-exclamation-circle" style = "color: #FF4500;"> Digite uma mensagem! </i> 
+							<i id = "icon_ok" class = "fas fa-check-circle" style = "color: green;"> </i> <br> 
+							<textarea class= "campo_comentario" placeholder="Digite aqui um comentário ou sugestão sobre meu site!"></textarea><br>
+
+						</div>
+						<input class = "botao_enviar" type = "submit" value = "Enviar">
+					</fieldset>
+				</form>
+				
+			</div>
+		</section>
+
+		<br> <br> <br> <br>
+		
+	</div>
+
+	<!-- Chamando arquivo jQuery -->
+	<script src = "js/jQuery-3.3.1.js"> </script>
+	<!-- Chamando o arquivo javascript -->
+	<script src = "js/javascript.js"> </script>
+	<!-- chamando o arquivo com mensagem dos icones -->
+	<script type="text/javascript" src="js/icon_message.js"></script>
+
+	<!-- Chamando as funções javascript -->
+	<script>
+
+	</script>
+
+</body>
+
+</html>

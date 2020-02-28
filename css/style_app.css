@@ -1,0 +1,338 @@
+/* Estiliando o corpo do projeto (body) */
+body
+{
+	margin: 0;
+	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+
+/****************** TODO O MENU ESTA AQUI *******************/
+
+/* Estiliando o menu lateral a esquerda */
+.menu-lateral
+{
+	display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+	background-color: #0000CD;
+	width: 100%;
+	height: 10vh;
+	min-height: 10vh;
+	float: top;
+	position: fixed;
+	margin: 0;
+	z-index: 2;
+}
+
+/* Estilizando a div que contem o menu do modo app */
+.dados_app
+{
+	height: 10vh; /* unidade vh: muda o tamanho dos elementos dependendo do tamanho da tela em que eles está */
+}
+
+/* Estilizando o botao que esta no menu do modo app */
+.dados_app button
+{
+	cursor: pointer;
+	width: 10vh;
+	height: 7vh;
+	font-size: 5vh;
+	background-color: #0000CD;
+	color: #FFFFFF;
+	border-color: #FFFFFF;
+	float: right;
+	text-align: center;
+	margin-top: 1.5vh;
+	margin-right: 15px;
+}
+
+/* Estilizando o texto que esta no menu do modo app */
+.dados_app a h1
+{
+	/*z-index: 2; */
+	margin-top: 2vh;
+	margin-left: 20px;
+	float: left;
+	color: #FFFFFF;
+	font-weight: 500;
+	font-size: 4vh;
+}
+
+/* escondendo o perfil ao redor da imagem */
+.perfil_circle 
+{
+	display: none;
+}
+
+/* Escondendo a imagem de perfil */
+.perfil_circle img
+{ 
+	display: none;
+
+}
+
+/* Estilizando a lista de elementos com dimensionamento menor que 800 */
+.lista_de_elementos_app
+{
+	display: none;
+	margin-top: 10vh;
+	background-color: #0000CD;
+	position: fixed;
+	width: 100%;
+	height: 45vh;
+	z-index: 1;
+}
+
+/* Estilizando a lista de elementos que sera deslizada para baixo e para cima no modo menu */
+.lista_de_elementos_app ul
+{
+	text-align: top;
+	list-style: none;
+}
+
+/* Estilizando os elementos da lista */
+.lista_de_elementos_app ul li a
+{
+	display: block;
+	text-decoration: none;
+	color: #A9A9A9;
+	padding-top: 3.5vh;
+	margin-left: -20px;
+	font-size: 2.7vh;
+	font-weight: 700;
+}
+
+/* Ocultando a lista de elementos do modo site */
+.lista_de_elementos
+{
+	display: none;
+}
+
+
+/****************** TODO O CONTEUDO ESTA AQUI *******************/
+
+/* Estilizando todo o conteudo do site */
+.conteudo
+{
+	z-index: 0;
+	position: relative;
+	margin-left: 2vh;
+	margin-right: 2vh;
+}
+
+/* Estilizando a parte "sobre" do site */
+.sobre 
+{
+	padding-top: 18vh;
+}
+
+/* Estiliando o nome */
+.nome
+{
+	text-transform: uppercase;
+	font-size: 9vh;
+	color: #363636;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+/* Estilizando o sobrenome */
+.sobrenome
+{
+	color: #0000CD;
+}
+
+/* Estilizando o endereco */
+.endereco
+{
+	text-transform: uppercase;
+	color: #828282;
+	font-weight: 700;
+	font-size: 2.5vh;
+}
+
+/* Estilizando o conteudo da parte "sobre" */
+.conteudo_sobre
+{
+	color: #9C9C9C;
+	font-weight: 400;
+	font-size: 3vh;
+	margin-bottom: 10vh;
+}
+
+/* Estilizando os icones de contatos */
+.contato_icons
+{
+	margin-bottom: 15vh;
+}
+
+/* PERSONALIZANDO AS IDS QUE SERÃO VALIDAS PARA TODOS OS TITULOS, SUBTITULOS, SUB-SUBTITULOS, PARAGRAFOS E ICONES DO SITE */
+
+#topico_lista
+{
+	color: #363636;
+	text-transform: uppercase;
+	font-size: 7vh;
+	font-weight: 700;
+	margin-bottom: 8vh;
+}
+
+#titulo
+{
+	color: #363636;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 0;
+	font-size: 4vh;
+}
+
+#sub-titulo
+{
+	margin-top: 0;
+	color: #828282;
+	font-transform: uppercase;
+	font-weight: 500;
+	font-size: 4vh;
+}
+
+#paragrafo
+{
+	color: #828282;
+	font-weight: 400;
+	margin-bottom: 10vh;
+	font-size: 2.5vh;
+}
+
+#icons
+{
+	font-size: 10vh; 
+	color: #363636; 
+	margin-left: 10vh; 
+	text-decoration: none;
+}
+
+#icon_error
+{
+	display: none;
+}
+
+#icon_ok
+{
+	display: none;
+}
+
+/* Colocando todos os icones no centro */
+.contato_icons
+{
+	text-align: center;
+}
+
+/* Colocando todos os icones no centro */
+.icons_center
+{
+	text-align: center;
+}
+
+/* Estilizando a lista de programas e ferramentas */
+.lista_habilidades
+{
+	list-style: none;
+	text-align: left;
+	color: #828282;
+	font-weight: 400;
+	margin-bottom: 10vh;
+	font-size: 2.5vh;
+}
+
+/* distancia dos icons da lista ate a parede esquerda */
+.lista_habilidades li 
+{
+	padding-top: 1vh;
+	padding-left: 5vh;
+}
+
+/* distancia do texto da lista até a parede esquerda */
+.lista_habilidades li i
+{
+	margin-top: 1vh;
+	padding-left: 3.5vh;
+}
+
+/* ESTILIZANDO O FORMULARIO PARA COMENTARIOS */
+
+/* Estilizando o fieldset do formulario */
+.formulario_comentario fieldset
+{
+	height: auto;
+	width: auto;
+	border-color: #363636;
+}
+
+/* Estilizando a legenda do fieldset */
+.formulario_comentario fieldset legend
+{
+	font-weight: 600;
+	font-size: 20px;
+	color: #363636; 
+}
+
+/* Estilizando todos labels do formulrio */
+.formulario_comentario fieldset label
+{
+	color: #828282;
+	font-weight: 600;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+/* Estilizando o campo nome do formulario */
+.campo_nome
+{
+	border-color: #828282;
+	border-radius: 5px;
+	height: 5px;
+	width: 270px;
+	padding: 15px;
+	margin-bottom: 15px;
+	outline: 0;
+}
+
+/* Estilizando o campo email do formulario */
+.campo_email
+{
+	border-color: #828282;
+	border-radius: 5px;
+	height: 5px;
+	width: 270px;
+	padding: 15px;
+	margin-bottom: 15px;
+	outline: 0;
+}
+
+/* Estilizando a area de texto do formulario */
+.formulario_comentario textarea
+{
+	border-color: #828282;
+	border-radius: 5px;
+	height: 200px;
+	width: 100%;
+	outline: 0;
+} 
+
+/* Estilizando o botao de enviar do formulario */
+.botao_enviar
+{
+	font-weight: 700;
+	font-size: 15px;
+	color: #FFFFFF;
+	background-color: #0000CD;
+	border-radius: 0 15px 0 15px;
+	height: 40px;
+	width: 150px;
+	margin-top: 15px;
+	outline: 0;
+}
